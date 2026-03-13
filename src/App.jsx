@@ -351,7 +351,7 @@ export default function App() {
                 <div className="w-16 h-16 bg-[#00ff88]/10 rounded-full flex items-center justify-center mx-auto">
                   <Terminal className="w-8 h-8 text-[#00ff88]" />
                 </div>
-                <h2 className="text-2xl font-black uppercase tracking-tighter">You're on the list!</h2>
+                <h2 className="text-2xl font-black uppercase tracking-tighter">You're on the <span className="text-[#00ff88]">ELITE</span> list! (v2)</h2>
                 <p className="text-gray-400">Keep an eye on your inbox. We'll email you the moment the Sovereign Prop infrastructure is live.</p>
                 <button 
                   onClick={() => { setIsWaitlistOpen(false); setWaitlistSuccess(false); }}
